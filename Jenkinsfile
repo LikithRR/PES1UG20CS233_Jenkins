@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make -B --always-make'
+                sh 'make -C main'
                 echo 'Build Stage Successful'
             }
         }
