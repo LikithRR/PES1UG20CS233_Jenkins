@@ -1,4 +1,4 @@
-all: working_exec hello_exec
+all: hello_exec working_exec
 
 hello_exec: hello.cpp
 	g++ hello.cpp -o hello_exec
