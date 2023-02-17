@@ -9,7 +9,6 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '/var/jenkins_home/workspace/pes1ug20cs233-1/main/hello_exec'
                 sh '/var/jenkins_home/workspace/pes1ug20cs233-1/main/working_exec'
                 echo 'Test Stage Successful'
             }
